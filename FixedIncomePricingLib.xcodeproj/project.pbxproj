@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C9BFFB22456027F002B3332 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFB12456027F002B3332 /* main.cpp */; };
+		6C9BFFCE2456029A002B3332 /* MathUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFBC24560296002B3332 /* MathUtil.cpp */; };
+		6C9BFFCF2456029A002B3332 /* Swap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFBD24560297002B3332 /* Swap.cpp */; };
+		6C9BFFD02456029A002B3332 /* DateUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFC024560297002B3332 /* DateUtil.cpp */; };
+		6C9BFFD12456029A002B3332 /* BlackModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFC124560297002B3332 /* BlackModel.cpp */; };
+		6C9BFFD22456029A002B3332 /* Interpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFC224560297002B3332 /* Interpolation.cpp */; };
+		6C9BFFD32456029A002B3332 /* LIBOR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFC324560298002B3332 /* LIBOR.cpp */; };
+		6C9BFFD42456029A002B3332 /* European_Swaption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFC624560298002B3332 /* European_Swaption.cpp */; };
+		6C9BFFD52456029A002B3332 /* CapFloor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFC724560298002B3332 /* CapFloor.cpp */; };
+		6C9BFFD62456029A002B3332 /* OIS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFC824560299002B3332 /* OIS.cpp */; };
+		6C9BFFD82456029A002B3332 /* IDiscount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFCB2456029A002B3332 /* IDiscount.cpp */; };
+		6C9BFFDB2456035B002B3332 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9BFFDA2456035B002B3332 /* libboost_filesystem.a */; };
+		6C9BFFDD24560368002B3332 /* libboost_date_time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9BFFDC24560368002B3332 /* libboost_date_time.a */; };
+		6C9BFFE224560B89002B3332 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BFFE124560B89002B3332 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +36,30 @@
 
 /* Begin PBXFileReference section */
 		6C9BFFAE2456027F002B3332 /* FixedIncomePricingLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FixedIncomePricingLib; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C9BFFB12456027F002B3332 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6C9BFFB824560296002B3332 /* European_Swaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = European_Swaption.h; sourceTree = "<group>"; };
+		6C9BFFB924560296002B3332 /* CapFloor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapFloor.h; sourceTree = "<group>"; };
+		6C9BFFBA24560296002B3332 /* LIBOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIBOR.h; sourceTree = "<group>"; };
+		6C9BFFBB24560296002B3332 /* BaseContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseContract.h; sourceTree = "<group>"; };
+		6C9BFFBC24560296002B3332 /* MathUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathUtil.cpp; sourceTree = "<group>"; };
+		6C9BFFBD24560297002B3332 /* Swap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Swap.cpp; sourceTree = "<group>"; };
+		6C9BFFBE24560297002B3332 /* Interpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolation.h; sourceTree = "<group>"; };
+		6C9BFFBF24560297002B3332 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		6C9BFFC024560297002B3332 /* DateUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateUtil.cpp; sourceTree = "<group>"; };
+		6C9BFFC124560297002B3332 /* BlackModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlackModel.cpp; sourceTree = "<group>"; };
+		6C9BFFC224560297002B3332 /* Interpolation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interpolation.cpp; sourceTree = "<group>"; };
+		6C9BFFC324560298002B3332 /* LIBOR.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LIBOR.cpp; sourceTree = "<group>"; };
+		6C9BFFC424560298002B3332 /* MathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtil.h; sourceTree = "<group>"; };
+		6C9BFFC524560298002B3332 /* Swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swap.h; sourceTree = "<group>"; };
+		6C9BFFC624560298002B3332 /* European_Swaption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = European_Swaption.cpp; sourceTree = "<group>"; };
+		6C9BFFC724560298002B3332 /* CapFloor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CapFloor.cpp; sourceTree = "<group>"; };
+		6C9BFFC824560299002B3332 /* OIS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OIS.cpp; sourceTree = "<group>"; };
+		6C9BFFC924560299002B3332 /* IDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDiscount.h; sourceTree = "<group>"; };
+		6C9BFFCB2456029A002B3332 /* IDiscount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IDiscount.cpp; sourceTree = "<group>"; };
+		6C9BFFCC2456029A002B3332 /* BlackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackModel.h; sourceTree = "<group>"; };
+		6C9BFFCD2456029A002B3332 /* OIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIS.h; sourceTree = "<group>"; };
+		6C9BFFDA2456035B002B3332 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = ../../../../../usr/local/Cellar/boost/1.72.0/lib/libboost_filesystem.a; sourceTree = "<group>"; };
+		6C9BFFDC24560368002B3332 /* libboost_date_time.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_date_time.a; path = ../../../../../usr/local/Cellar/boost/1.72.0/lib/libboost_date_time.a; sourceTree = "<group>"; };
+		6C9BFFE124560B89002B3332 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9BFFDD24560368002B3332 /* libboost_date_time.a in Frameworks */,
+				6C9BFFDB2456035B002B3332 /* libboost_filesystem.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +80,7 @@
 			children = (
 				6C9BFFB02456027F002B3332 /* FixedIncomePricingLib */,
 				6C9BFFAF2456027F002B3332 /* Products */,
+				6C9BFFD92456035A002B3332 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +95,39 @@
 		6C9BFFB02456027F002B3332 /* FixedIncomePricingLib */ = {
 			isa = PBXGroup;
 			children = (
-				6C9BFFB12456027F002B3332 /* main.cpp */,
+				6C9BFFBB24560296002B3332 /* BaseContract.h */,
+				6C9BFFC124560297002B3332 /* BlackModel.cpp */,
+				6C9BFFCC2456029A002B3332 /* BlackModel.h */,
+				6C9BFFC724560298002B3332 /* CapFloor.cpp */,
+				6C9BFFB924560296002B3332 /* CapFloor.h */,
+				6C9BFFC024560297002B3332 /* DateUtil.cpp */,
+				6C9BFFBF24560297002B3332 /* DateUtil.h */,
+				6C9BFFC624560298002B3332 /* European_Swaption.cpp */,
+				6C9BFFB824560296002B3332 /* European_Swaption.h */,
+				6C9BFFCB2456029A002B3332 /* IDiscount.cpp */,
+				6C9BFFE124560B89002B3332 /* main.cpp */,
+				6C9BFFC924560299002B3332 /* IDiscount.h */,
+				6C9BFFC224560297002B3332 /* Interpolation.cpp */,
+				6C9BFFBE24560297002B3332 /* Interpolation.h */,
+				6C9BFFC324560298002B3332 /* LIBOR.cpp */,
+				6C9BFFBA24560296002B3332 /* LIBOR.h */,
+				6C9BFFBC24560296002B3332 /* MathUtil.cpp */,
+				6C9BFFC424560298002B3332 /* MathUtil.h */,
+				6C9BFFC824560299002B3332 /* OIS.cpp */,
+				6C9BFFCD2456029A002B3332 /* OIS.h */,
+				6C9BFFBD24560297002B3332 /* Swap.cpp */,
+				6C9BFFC524560298002B3332 /* Swap.h */,
 			);
 			path = FixedIncomePricingLib;
+			sourceTree = "<group>";
+		};
+		6C9BFFD92456035A002B3332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BFFDC24560368002B3332 /* libboost_date_time.a */,
+				6C9BFFDA2456035B002B3332 /* libboost_filesystem.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C9BFFB22456027F002B3332 /* main.cpp in Sources */,
+				6C9BFFD52456029A002B3332 /* CapFloor.cpp in Sources */,
+				6C9BFFD22456029A002B3332 /* Interpolation.cpp in Sources */,
+				6C9BFFE224560B89002B3332 /* main.cpp in Sources */,
+				6C9BFFD42456029A002B3332 /* European_Swaption.cpp in Sources */,
+				6C9BFFCF2456029A002B3332 /* Swap.cpp in Sources */,
+				6C9BFFD82456029A002B3332 /* IDiscount.cpp in Sources */,
+				6C9BFFD12456029A002B3332 /* BlackModel.cpp in Sources */,
+				6C9BFFD62456029A002B3332 /* OIS.cpp in Sources */,
+				6C9BFFD02456029A002B3332 /* DateUtil.cpp in Sources */,
+				6C9BFFD32456029A002B3332 /* LIBOR.cpp in Sources */,
+				6C9BFFCE2456029A002B3332 /* MathUtil.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +316,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/boost/1.72.0/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.72.0/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,6 +326,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/boost/1.72.0/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.72.0/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
