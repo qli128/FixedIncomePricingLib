@@ -15,6 +15,7 @@
 class BaseContract{
 public:
     virtual std::string name() const = 0;
+    virtual double Price(OIS&, LIBOR&){ return 0.0;}
 };
 
 #endif /* BaseContract_h */
